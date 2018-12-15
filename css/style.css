@@ -1,0 +1,35 @@
+.mainform{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+form{
+    width: 250px;
+    background: #7f8c8d;
+    padding: 30px 15px 15px 15px;
+    -webkit-box-shadow: 0 2px 5px 2px rgba(0,0,0,6);
+    box-shadow: 0 2px 5px 2px rgba(0,0,0,6);
+    border: 10px solid #34495e;
+}
+input[type="text"]{
+
+    font-family: 'Orbitron', sans-serif;
+    width: 100%;
+    font-size: 36px;
+    padding: 5px 5px;
+    box-sizing: border-box;
+    text-align: right;
+    background-color: rgba(52, 73, 94,1.0);
+    color: #fff;
+}
+input[type="button"]{
+    width: 58px;
+    height: 55px;
+    background: rgba(52, 73, 94,1.0);
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+hr{
+    margin: 15px 0px;
+}
